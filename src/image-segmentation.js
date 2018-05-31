@@ -365,7 +365,7 @@ export default class ImageSegmentation extends React.Component {
 
       return (
         <div>
-          <input type="hidden" id="data" name="polygons" />
+          <input type="hidden" id="data" name="data" />
           <div className="col-sm-12">
           <canvas 
             ref={canvas => this.canvas = canvas}
